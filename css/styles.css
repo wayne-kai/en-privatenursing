@@ -10,8 +10,8 @@ background-color: white;
 
 .en-logo-img {
   display: inline-block;
-  width:48px;
-  height:66px;
+  width: 72px;
+  height: 99px;
   margin-right: 1px;
 }
 
@@ -19,9 +19,10 @@ background-color: white;
   display: inline-block;
   margin:0;
   text-align: left;
-  line-height: 1.25rem;
+  line-height: 2rem;
   vertical-align: middle;
   color: #008890;
+  font-size: 2rem;
   /* font-weight: bold; */
 }
 
@@ -32,13 +33,18 @@ background-color: white;
 #frontpage {
   background-color: #FFFF;
   /* background: linear-gradient(to bottom,#f6f6f8,#f6f6f8 50rem,#e9f2f4 50.1rem); */
-  color: #937DC2;
+  /* color: #937DC2; */
   padding: 6rem 6rem 8rem;
+}
+
+.frontpage-heading {
+  color: #5a5a5a;
+  text-align: center;
 }
 
 .frontpage-img {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .frontpage-col {
@@ -51,24 +57,24 @@ background-color: white;
 }
 
 .services-col {
-  padding: 2rem 3rem 0 0;
+  padding: 2rem 3rem 2rem 0;
 }
 
 .services-img {
   width: 2.5rem;
   height: 2rem;
-  margin: 2px 0 2px;
+  margin: 2px 15px 2px 0;
 }
 
 .services-header {
   font-weight: bold;
   font-size: 1.5rem;
-
+  margin: 0;
 }
 
 #testimonials {
   background-color: #BFACE0;
-  padding: 4rem 0 8rem;
+  padding: 4rem 0 4rem;
 }
 
 .testimonial-star{
@@ -98,7 +104,6 @@ background-color: white;
 
 .contacts-img {
   width: 100%;
-  height: 100%;
 }
 
 .contacts-col {
@@ -108,7 +113,7 @@ background-color: white;
 .contacts-details {
   font-size: 1rem;
   line-height: 1.5;
-  padding: 4rem 0 0 4rem;
+  padding-left: 2rem;
 }
 
 .contacts-row {
