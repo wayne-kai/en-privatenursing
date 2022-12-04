@@ -23,7 +23,7 @@ background-color: white;
   vertical-align: middle;
   color: #008890;
   font-size: 2rem;
-  /* font-weight: bold; */
+  font-family: Noto-Serif;
 }
 
 .nav-link {
@@ -33,7 +33,7 @@ background-color: white;
 #frontpage {
   background-color: #FFFF;
   /* background: linear-gradient(to bottom,#f6f6f8,#f6f6f8 50rem,#e9f2f4 50.1rem); */
-  /* color: #937DC2; */
+  color: #937DC2;
   padding: 6rem 6rem 8rem;
 }
 
