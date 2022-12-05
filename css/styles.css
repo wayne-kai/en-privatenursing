@@ -58,18 +58,30 @@ background-color: white;
 
 .services-col {
   padding: 2rem 3rem 2rem 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.services-row {
+  display: flex;
+  align-items: center;
 }
 
 .services-img {
-  width: 2.5rem;
-  height: 2rem;
-  margin: 2px 15px 2px 0;
+  line-height: normal;
+  margin-right: 20px;
 }
 
 .services-header {
   font-weight: bold;
   font-size: 1.5rem;
   margin: 0;
+  display: inline-block;
+  width: 80%;
+}
+
+.services-chinese {
+
 }
 
 #testimonials {
@@ -110,6 +122,10 @@ background-color: white;
   padding: 1rem 1rem 0 0;
 }
 
+.contacts-icon {
+  line-height: normal;
+}
+
 .contacts-details {
   font-size: 1rem;
   line-height: 1.5;
@@ -118,18 +134,18 @@ background-color: white;
 
 .contacts-row {
   padding-bottom: 1.5rem;
-
+  display: flex;
+  align-items: center;
 }
 
 .contacts-text {
-  display: inline-block;
-  vertical-align: middle;
   padding-left: 1rem;
+  margin: 1rem;
 }
 
 .email-text {
   display: inline-block;
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 #footer {
