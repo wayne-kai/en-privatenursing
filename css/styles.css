@@ -4,8 +4,8 @@
 
 .en-navbar {
   width: 100%;
-background-color: white;
-    padding: 0 3rem 0 3rem;
+  background-color: white;
+  padding: 0 3rem 0 3rem;
 }
 
 .en-logo-img {
@@ -17,17 +17,18 @@ background-color: white;
 
 .en-logo-heading {
   display: inline-block;
-  margin:0;
+  margin: 0;
   text-align: left;
-  line-height: 2rem;
+  line-height: 1.5rem;
   vertical-align: middle;
   color: #008890;
-  font-size: 2rem;
-  font-family: Noto-Serif;
+  font-size: 1.5rem;
+  font-family: 'Aleo',  Noto-Serif;
 }
 
 .nav-link {
   color: #008890;
+  font-family: 'Fira Sans', 'Concert One', 'Cabin Condensed';
 }
 
 #frontpage {
@@ -35,6 +36,7 @@ background-color: white;
   /* background: linear-gradient(to bottom,#f6f6f8,#f6f6f8 50rem,#e9f2f4 50.1rem); */
   color: #937DC2;
   padding: 6rem 6rem 8rem;
+  font-family: 'Concert One', 'Fira Sans', 'Cabin Condensed';
 }
 
 .frontpage-heading {
@@ -48,12 +50,13 @@ background-color: white;
 }
 
 .frontpage-col {
-  padding: 2rem 3rem 2rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 #services {
   background-color: #EBC7E8;
   padding: 6rem 6rem 8rem;
+  font-family: 'Concert One', 'Fira Sans', 'Cabin Condensed';
 }
 
 .services-col {
@@ -80,16 +83,15 @@ background-color: white;
   width: 80%;
 }
 
-.services-chinese {
-
-}
+.services-chinese {}
 
 #testimonials {
   background-color: #BFACE0;
   padding: 4rem 0 4rem;
+  font-family: 'Cabin Condensed', 'Concert One', 'Fira Sans';
 }
 
-.testimonial-star{
+.testimonial-star {
   padding-bottom: 2rem;
   color: #ffc107;
 }
@@ -100,7 +102,7 @@ background-color: white;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 .testimonial-image {
@@ -113,8 +115,10 @@ background-color: white;
   /* background-color: #BFACE0; */
   padding: 4rem 6rem 8rem;
 }
-
-.contacts-img {
+.contacts-heading {
+    font-family: 'Cabin Condensed', 'Concert One', 'Fira Sans';
+}
+.contacts-video {
   width: 100%;
 }
 
@@ -153,6 +157,7 @@ background-color: white;
   padding: 3% 10%;
   text-align: center;
   font-weight: lighter;
+  font-family: 'Fira Sans';
 }
 
 .footer-icon {
