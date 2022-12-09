@@ -58,6 +58,7 @@
   padding: 6rem 5% 8rem;
   font-family: 'Concert One', 'Fira Sans', 'Cabin Condensed';
   color: white;
+/* background-image: url("../images/black-thread-light.png"); */
 }
 
 .services-col {
@@ -121,11 +122,12 @@
 }
 
 .contacts-video {
-  width: 100%;
+max-height: 422px;
 }
 
 .contacts-col {
   padding: 5% 2% 0 0;
+  text-align: center;
 }
 
 .contacts-icon {
@@ -147,6 +149,7 @@
 .contacts-text {
   padding-left: 1rem;
   margin: 1rem;
+  text-align: left;
 }
 
 .email-text {
