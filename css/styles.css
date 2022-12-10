@@ -31,6 +31,32 @@
   font-family: 'Fira Sans', 'Concert One', 'Cabin Condensed';
 }
 
+.en-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999999;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 11px rgb(0 0 0 / 50%);
+      background-color: #25D366;
+      display: flex;
+}
+
+.en-fixed:hover {
+  background-color: #66FF99;
+}
+
+.en-whatsapp-fixed {
+  color: white;
+    /* width: 28px;
+    height: 28px; */
+
+}
+
 #frontpage {
   background-color: #FFFF;
   /* background: linear-gradient(to bottom,#f6f6f8,#f6f6f8 50rem,#e9f2f4 50.1rem); */
@@ -168,4 +194,11 @@ max-height: 422px;
 .footer-icon {
   margin: 1%;
   text-align: center;
+}
+a .footer-icon {
+  color: #bfbfbf;
+}
+
+.footer-icon:hover {
+  color: black;
 }
