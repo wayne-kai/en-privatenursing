@@ -70,23 +70,28 @@ h1 {
 }
 
 #frontpage {
-  /* background-image: url("../images/Frontpage.png");
-  background-position: center center;
-  background-color: rgba(0, 0, 0, 0.3); */
-  background-color: #FFFF;
+  /* background-color: #FFFF; */
   /* background: linear-gradient(to bottom,#f6f6f8,#f6f6f8 50rem,#e9f2f4 50.1rem); */
   padding: 6rem 5% 8rem;
   font-family: 'Concert One', 'Fira Sans', 'Cabin Condensed';
 }
 
-.frontpage-backgrd {
-  background-image: url("images/Frontpage.png");
+/* .en-bd-image {
+  background-image: url("../images/family-removebg.png");
+  background-repeat: no-repeat;
+  background-size:     cover;
   background-position: center center;
-  background-color: rgba(0, 0, 0, 0.3);
+    filter: grayscale(0.5);
+    height: 50vh;
+    width: 100%;
+} */
+
+.frontpage-img {
+  border-radius: 20%;
 }
 
 .frontpage-heading {
-  color: #5a5a5a;
+  /* color: #5a5a5a; */
   text-align: center;
 }
 
