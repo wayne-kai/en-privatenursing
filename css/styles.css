@@ -72,7 +72,7 @@ h1 {
 #frontpage {
   /* background-color: #FFFF; */
   padding: 6rem 4% 8rem;
-  /* font-family: 'Cabin Condensed'; */
+  font-family: 'Lato';
 }
 
 .frontpage-img {
@@ -90,18 +90,19 @@ h1 {
 }
 
 .frontpage-col {
-  padding: 2rem 2rem 0;
+  padding: 2rem 1rem 0;
 }
 
 #services {
   /* background-color: rgb(117,181,181); */
   /* background-color: #DAF7A6; */
   background-color: rgba(50,189,199,.1);
-  border-radius: 3%;
+  /* border-radius: 1%; */
   /* background-color: #f6f6f8; */
   padding: 5rem 5% 8rem;
-  font-family: 'Fira Sans', 'Cabin Condensed';
+  font-family: 'Lato';
   /* color: #008890; */
+  text-align: center;
 }
 
 .en-services-header {
@@ -109,7 +110,7 @@ h1 {
 }
 
 .services-col {
-  padding: 4rem 3rem 4rem 0;
+  padding: 4rem 3% 4rem 3%;
   display: inline-block;
   vertical-align: middle;
 }
@@ -124,11 +125,21 @@ h1 {
   margin-right: 20px;
 }
 
+.en-services-img {
+  width: 100%;
+  border-radius: 10%;
+  padding-bottom: 1rem;
+}
+
 .services-header {
   font-weight: bold;
-  margin: 0;
-  display: inline-block;
-  width: 80%;
+  margin: auto;
+  /* display: inline-block; */
+  /* width: 80%; */
+}
+
+.services-chinese {
+  font-family: 'Noto Serif SC';
 }
 
 #testimonials {
@@ -157,18 +168,12 @@ h1 {
   padding: 7% 15%;
 }
 
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
 #contacts {
   /* background-color: rgb(117,181,181); */
   /* background-color: #DAF7A6; */
   /* background-color: #AFE1AF; */
   background-color: rgba(50,189,199,.1);
-  border-radius: 3%;
+  /* border-radius: 3%; */
   /* background-color: #f6f6f8; */
   padding: 4rem 5% 8rem;
 }
