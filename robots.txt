@@ -1,3 +1,12 @@
-User-agent: googlebot
+User-agent: *
 Disallow: /images/
-Disallow: /icons/
+Disallow: /android-chrome-192x192.png
+Disallow: /android-chrome-256x256.png
+Disallow: /apple-touch-icon.png
+Disallow: /browserconfig.xml
+Disallow: /favicon.ico
+Disallow: /favicon-16x16.png
+Disallow: /favicon-32x32.png
+Disallow: /mstile-150x150.png
+Disallow: /safari-pinned-tab.svg
+Disallow: /site.webmanifest
