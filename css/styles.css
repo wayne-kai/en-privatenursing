@@ -19,8 +19,7 @@ h1 {
 
 .en-logo-img {
   display: inline-block;
-  width: 72px;
-  height: 99px;
+  width: 50px;
   margin-right: 1px;
 }
 
@@ -105,8 +104,15 @@ h1 {
   text-align: center;
 }
 
+.filter-grayscale {
+  filter: grayscale(0.6);
+}
+
 .en-services-header {
-  padding-bottom: 3rem;
+  padding-bottom: 0.5rem;
+}
+.en-services-header-chinese {
+  padding-bottom: 2rem;
 }
 
 .services-col {
